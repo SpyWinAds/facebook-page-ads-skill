@@ -9,7 +9,7 @@ Free web version, no AI needed: https://spywinads.com/facebook-page-ads
 ## Setup (3 minutes, free)
 
 Two parts, you need both: **connect the SpyWinAds MCP** (the data) and **add this skill** (the instructions). The MCP sign-in step creates a
-free SpyWinAds account: 30 credits a day, no card. No GitHub account needed. Then try: `fanpage https://www.facebook.com/<tên-trang> đang chạy ads gì`
+free SpyWinAds account: 30 credits a day, no card. No GitHub account needed. Then try: `what ads is this Facebook Page running? https://www.facebook.com/<page>`
 
 | You use | Works? |
 |---|---|
@@ -30,14 +30,14 @@ Custom connectors are available on Free (one connector) and Skills too
 
    → Customize → **Skills** → **+** → Create skill → **Upload a skill** → pick the zip. Turn on Code execution (Settings → Capabilities)
    if Claude asks.
-3. New chat: `fanpage https://www.facebook.com/<tên-trang> đang chạy ads gì`
+3. New chat: `what ads is this Facebook Page running? https://www.facebook.com/<page>`
 
 ### ChatGPT (Plus / Pro / Business)
 1. Settings → Apps & Connectors → Advanced settings → **Developer mode** on → **Create** → name `SpyWinAds`, URL
    `https://spywinads.com/mcp`, Authentication **OAuth** → sign in → Allow.
 2. Create a **Project** → Instructions → paste all of
    [SKILL.md](https://raw.githubusercontent.com/SpyWinAds/facebook-page-ads-skill/main/SKILL.md).
-3. In that Project, turn SpyWinAds on (**+** → Developer mode) and type `fanpage https://www.facebook.com/<tên-trang> đang chạy ads gì`.
+3. In that Project, turn SpyWinAds on (**+** → Developer mode) and type `what ads is this Facebook Page running? https://www.facebook.com/<page>`.
 
 ChatGPT Free cannot add a custom MCP yet: use Claude.ai Free (above), or the free web tool https://spywinads.com/facebook-page-ads.
 
