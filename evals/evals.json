@@ -1,0 +1,20 @@
+{
+ "skill_name": "spywinads-page-lookup",
+ "evals": [
+  {
+   "id": 1,
+   "name": "page-en",
+   "prompt": "what ads is this page running and which store is behind it? https://www.facebook.com/61591434951522/",
+   "files": [],
+   "assertions": [
+    "Calls SpyWinAds tools at most 3 times",
+    "Answers in the user's language, incl. table headers",
+    "Video age given as date + number of days",
+    "Has a limits line: no spend / revenue data",
+    "Never claims profit / winning / making sales",
+    "Names aluckgoodate.com as the store behind the Page",
+    "No column of zeros when the Page has 0 live ads"
+   ]
+  }
+ ]
+}
