@@ -4,7 +4,7 @@ Free skill for **Claude, ChatGPT, Claude Code, Codex, Cursor**, powered by real 
 no Meta API key.
 Skill miễn phí: **Tra fanpage** bằng dữ liệu thật của SpyWinAds. Không cào Facebook, không đăng nhập Facebook.
 
-Free web version, no AI needed: https://spywinads.com/facebook-page-ads
+Free web version, no AI needed: [spywinads.com/facebook-page-ads](https://spywinads.com/facebook-page-ads?utm_source=github&utm_medium=readme&utm_campaign=facebook-page-ads-skill)
 
 ## Setup (3 minutes, free)
 
@@ -40,7 +40,7 @@ Custom connectors are available on Free (one connector) and Skills too
    [SKILL.md](https://raw.githubusercontent.com/SpyWinAds/facebook-page-ads-skill/main/SKILL.md).
 3. In that Project, turn SpyWinAds on (**+** → Developer mode) and type `what ads is this Facebook Page running? https://www.facebook.com/<page>`.
 
-ChatGPT Free cannot add a custom MCP yet: use Claude.ai Free (above), or the free web tool https://spywinads.com/facebook-page-ads.
+ChatGPT Free cannot add a custom MCP yet: use Claude.ai Free (above), or the free web tool [spywinads.com/facebook-page-ads](https://spywinads.com/facebook-page-ads?utm_source=github&utm_medium=readme&utm_campaign=facebook-page-ads-skill).
 
 ### Claude Code
 ```
@@ -50,7 +50,7 @@ git clone https://github.com/SpyWinAds/facebook-page-ads-skill ~/.claude/skills/
 Then type `/mcp` → spywinads → finish the sign-in in the browser (adding it alone does not connect it).
 
 ### Codex / Cursor / other agents
-Free API key at https://spywinads.com/developers → MCP `https://spywinads.com/mcp`, header `Authorization: Bearer <key>` (never in the
+Free API key at [spywinads.com/developers](https://spywinads.com/developers?utm_source=github&utm_medium=readme&utm_campaign=facebook-page-ads-skill) → MCP `https://spywinads.com/mcp`, header `Authorization: Bearer <key>` (never in the
 URL). Paste SKILL.md into `AGENTS.md` / your rules.
 
 ## More SpyWinAds skills
@@ -69,4 +69,4 @@ URL). Paste SKILL.md into `AGENTS.md` / your rules.
 SpyWinAds users. Counts are the minimum ads observed: **no spend, reach, orders or revenue**. Many ads or many stores means tested or
 copied, **not proven to sell**.
 
-MIT license · SpyWinAds — https://spywinads.com
+MIT license · SpyWinAds — [spywinads.com](https://spywinads.com?utm_source=github&utm_medium=readme&utm_campaign=facebook-page-ads-skill)
